@@ -24,7 +24,7 @@ polygon = "${POLYGON_RPC_URL}"
 arbitrum = { key = "${ARBISCAN_API_KEY}", chain = 42161 }
 base = { key = "${BASESCAN_API_KEY}", chain = 8453 }
 bsc = { key = "${BSCSCAN_API_KEY}", chain = 56 }
-ethereum = { key = "${ETHERSCAN_API_KEY}", chain = 137 }
+ethereum = { key = "${ETHERSCAN_API_KEY}", chain = 1 }
 optimism = { key = "${OPTIMISMSCAN_API_KEY}", chain = 10 }
 polygon = { key = "${POLYGONSCAN_API_KEY}", chain = 137 }
 
