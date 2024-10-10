@@ -14,6 +14,7 @@ runs = 5000
 
 [rpc_endpoints]
 arbitrum = "${ARBITRUM_RPC_URL}"
+avalanche = "${AVALANCHE_RPC_URL}"
 base = "${BASE_RPC_URL}"
 bsc = "${BSC_RPC_URL}"
 ethereum = "${ETHEREUM_RPC_URL}"
@@ -22,6 +23,7 @@ polygon = "${POLYGON_RPC_URL}"
 
 [etherscan]
 arbitrum = { key = "${ARBISCAN_API_KEY}", chain = 42161 }
+avalanche = { key = "verifyContract", chain = 43114, url = "https://api.routescan.io/v2/network/mainnet/evm/43114/etherscan" }
 base = { key = "${BASESCAN_API_KEY}", chain = 8453 }
 bsc = { key = "${BSCSCAN_API_KEY}", chain = 56 }
 ethereum = { key = "${ETHERSCAN_API_KEY}", chain = 1 }
